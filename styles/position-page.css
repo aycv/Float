@@ -1,74 +1,50 @@
-.container {
-  padding-left: 60px;
-  padding-right: 60px;
-}
-
-nav {
-  height: 60px;
-  background-color: grey;
-  position: fixed;
-  width: 100%;
-}
-
-nav .icon-img {
-  height: 50px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  border-radius: 50%;
-  vertical-align: middle;
-  border: 1px solid black;
-}
-
-nav ul {
-  display: inline-block;
-  list-style: none;
-}
-
-nav li {
-  display: inline-block;
-}
-
-nav li::after {
-  content: "|";
-  margin-left: 5px;
-}
-
-nav a:hover {
-  color: black;
-}
-
-body {
-  background: url(../images/outerspace_landscape.jpeg) no-repeat;
-  background-size: cover;
-}
-
-main {
-  padding-top: 90px;
-  min-width: 1000px;
-}
-
-.box {
-  margin-top: 150px;
+.wrapper {
   width: 600px;
   height: 300px;
   position: relative;
   border: 10px dotted green;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  margin-top: 200px;
 }
 
-
-.spacecat, .spacedog {
-  position: absolute;
+.cat, .dog{
+  height: 200px;
   width: 200px;
+  position: absolute;
 }
 
-.spacecat {
-  top: -90px;
-  left: -90px;
+img.cat {
+  top: -100px;
+  left: -100px;
 }
 
-.spacedog {
-  bottom: -120px;
-  right: -60px;
+img.dog {
+  bottom: -100px;
+  right: -100px;
+}
+
+nav {
+  background-color: grey;
+  padding-left: 60px;
+  padding-right: 60px;
+  height: 60px;
+  width: 100%;
+}
+
+.cat2 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.three li{
+  display: inline-block;
+  border-right: 2px solid black;
+  padding-right: 5px;
+}
+
+.three{
+  display: inline;
+  position: absolute;
 }
