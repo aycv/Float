@@ -1,0 +1,50 @@
+.wrapper {
+  width: 600px;
+  height: 300px;
+  position: relative;
+  border: 10px dotted green;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+.cat, .dog{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+}
+
+img.cat {
+  top: -100px;
+  left: -100px;
+}
+
+img.dog {
+  bottom: -100px;
+  right: -100px;
+}
+
+nav {
+  background-color: grey;
+  padding-left: 60px;
+  padding-right: 60px;
+  height: 60px;
+  width: 100%;
+}
+
+.cat2 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.three li{
+  display: inline-block;
+  border-right: 2px solid black;
+  padding-right: 5px;
+}
+
+.three{
+  display: inline;
+  position: absolute;
+}
